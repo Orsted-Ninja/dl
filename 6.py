@@ -1,5 +1,4 @@
-# S7AH Niranjan J
-# Weight initializations and regularizers
+
 import tensorflow as tf
 from tensorflow.keras import layers, models, regularizers
 from tensorflow.keras.datasets import cifar10
