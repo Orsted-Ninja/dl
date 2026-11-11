@@ -5,8 +5,6 @@ from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.utils import to_categorical
 import numpy as np
 import time
-
-# Load and preprocess dataset for all parts of the experiment
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
 x_train, x_test = x_train / 255.0, x_test / 255.0
 y_train_cat = to_categorical(y_train)
